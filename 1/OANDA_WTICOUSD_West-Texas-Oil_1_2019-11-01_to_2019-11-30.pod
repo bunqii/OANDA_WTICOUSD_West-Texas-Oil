@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "WTICO_USD",
+  "granularity": "M1",
+  "chunk_start": "2019-11-01",
+  "chunk_end": "2019-11-30",
+  "parquet_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2019-11-01_to_2019-11-30.parquet",
+  "data_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2019-11-01_to_2019-11-30.parquet",
+  "row_count": 25823,
+  "first_candle": {
+    "time": 1572566400,
+    "Time": "2019-11-01T00:00:00.000000000Z",
+    "open": 54.033,
+    "high": 54.078,
+    "low": 54.028,
+    "close": 54.075,
+    "volume": 109
+  },
+  "last_candle": {
+    "time": 1575053040,
+    "Time": "2019-11-29T18:44:00.000000000Z",
+    "open": 55.446,
+    "high": 55.446,
+    "low": 55.395,
+    "close": 55.405,
+    "volume": 109
+  },
+  "csv_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2019-11-01_to_2019-11-30.parquet",
+  "csv_row_count": 25823,
+  "csv_first_candle": {
+    "time": 1572566400,
+    "Time": "2019-11-01T00:00:00.000000000Z",
+    "open": 54.033,
+    "high": 54.078,
+    "low": 54.028,
+    "close": 54.075,
+    "volume": 109
+  },
+  "csv_last_candle": {
+    "time": 1575053040,
+    "Time": "2019-11-29T18:44:00.000000000Z",
+    "open": 55.446,
+    "high": 55.446,
+    "low": 55.395,
+    "close": 55.405,
+    "volume": 109
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T23:26:02.000000000Z",
+  "generated_at": "2026-10-15T23:26:02.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2499,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2019-10-30T18:09:00Z",
+        "to": "2019-11-03T05:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-03T05:29:00Z",
+        "to": "2019-11-06T16:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-06T16:49:00Z",
+        "to": "2019-11-10T04:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-10T04:09:00Z",
+        "to": "2019-11-13T15:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-13T15:29:00Z",
+        "to": "2019-11-17T02:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-17T02:49:00Z",
+        "to": "2019-11-20T14:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-20T14:09:00Z",
+        "to": "2019-11-24T01:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-24T01:29:00Z",
+        "to": "2019-11-27T12:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-27T12:49:00Z",
+        "to": "2019-12-01T00:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
