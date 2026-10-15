@@ -1,0 +1,1 @@
+# OANDA_WTICOUSD_West-Texas-Oil
