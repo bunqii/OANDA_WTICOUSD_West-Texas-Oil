@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "WTICO_USD",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_WTICOUSD_West-Texas-Oil_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_WTICOUSD_West-Texas-Oil_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2735,
+  "first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 78.754,
+    "high": 80.94,
+    "low": 78.754,
+    "close": 80.851,
+    "volume": 26716
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 61.681,
+    "high": 61.91,
+    "low": 60.65,
+    "close": 61.23,
+    "volume": 58546
+  },
+  "csv_file": "OANDA_WTICOUSD_West-Texas-Oil_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2735,
+  "csv_first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 78.754,
+    "high": 80.94,
+    "low": 78.754,
+    "close": 80.851,
+    "volume": 26716
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 61.681,
+    "high": 61.91,
+    "low": 60.65,
+    "close": 61.23,
+    "volume": 58546
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T23:26:50.000000000Z",
+  "generated_at": "2026-10-15T23:26:50.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-01-22T22:00:00Z",
+        "to": "2016-09-30T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-09-30T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
