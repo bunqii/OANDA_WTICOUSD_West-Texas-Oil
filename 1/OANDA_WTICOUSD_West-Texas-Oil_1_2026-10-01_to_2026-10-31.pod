@@ -6,7 +6,7 @@
   "chunk_end": "2026-10-31",
   "parquet_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2026-10-01_to_2026-10-31.parquet",
   "data_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2026-10-01_to_2026-10-31.parquet",
-  "row_count": 15109,
+  "row_count": 18500,
   "first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 137
   },
   "last_candle": {
-    "time": 1792106640,
-    "Time": "2026-10-15T23:24:00.000000000Z",
-    "open": 98.336,
-    "high": 98.34,
-    "low": 98.33,
-    "close": 98.33,
-    "volume": 6
+    "time": 1792490460,
+    "Time": "2026-10-20T10:01:00.000000000Z",
+    "open": 102.578,
+    "high": 102.618,
+    "low": 102.537,
+    "close": 102.583,
+    "volume": 156
   },
   "csv_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2026-10-01_to_2026-10-31.parquet",
-  "csv_row_count": 15109,
+  "csv_row_count": 18500,
   "csv_first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -37,20 +37,20 @@
     "volume": 137
   },
   "csv_last_candle": {
-    "time": 1792106640,
-    "Time": "2026-10-15T23:24:00.000000000Z",
-    "open": 98.336,
-    "high": 98.34,
-    "low": 98.33,
-    "close": 98.33,
-    "volume": 6
+    "time": 1792490460,
+    "Time": "2026-10-20T10:01:00.000000000Z",
+    "open": 102.578,
+    "high": 102.618,
+    "low": 102.537,
+    "close": 102.583,
+    "volume": 156
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-15T23:26:26.000000000Z",
-  "generated_at": "2026-10-15T23:26:26.000000000Z",
+  "verified_at": "2026-10-20T10:03:58.000000000Z",
+  "generated_at": "2026-10-20T10:03:58.000000000Z",
   "download_request": {
-    "total_api_blocks_in_run": 2499,
-    "chunk_api_blocks": 6,
+    "total_api_blocks_in_run": 2500,
+    "chunk_api_blocks": 7,
     "chunk_permanent_errors": 0,
     "permanent_error_details": [],
     "all_block_outcomes": [
@@ -86,7 +86,13 @@
       },
       {
         "from": "2026-10-15T10:09:00Z",
-        "to": "2026-10-15T23:25:00Z",
+        "to": "2026-10-18T21:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-18T21:29:00Z",
+        "to": "2026-10-20T10:02:00Z",
         "code": 200,
         "msg": "OK"
       }
