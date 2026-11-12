@@ -6,7 +6,7 @@
   "chunk_end": "2026-11-30",
   "parquet_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2026-11-01_to_2026-11-30.parquet",
   "data_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2026-11-01_to_2026-11-30.parquet",
-  "row_count": 10070,
+  "row_count": 11519,
   "first_candle": {
     "time": 1793574000,
     "Time": "2026-11-01T23:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 6
   },
   "last_candle": {
-    "time": 1794376560,
-    "Time": "2026-11-11T05:56:00.000000000Z",
-    "open": 87.189,
-    "high": 87.205,
-    "low": 87.094,
-    "close": 87.104,
-    "volume": 48
+    "time": 1794467160,
+    "Time": "2026-11-12T07:06:00.000000000Z",
+    "open": 87.141,
+    "high": 87.202,
+    "low": 87.126,
+    "close": 87.151,
+    "volume": 101
   },
   "csv_file": "OANDA_WTICOUSD_West-Texas-Oil_1_2026-11-01_to_2026-11-30.parquet",
-  "csv_row_count": 10070,
+  "csv_row_count": 11519,
   "csv_first_candle": {
     "time": 1793574000,
     "Time": "2026-11-01T23:00:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 6
   },
   "csv_last_candle": {
-    "time": 1794376560,
-    "Time": "2026-11-11T05:56:00.000000000Z",
-    "open": 87.189,
-    "high": 87.205,
-    "low": 87.094,
-    "close": 87.104,
-    "volume": 48
+    "time": 1794467160,
+    "Time": "2026-11-12T07:06:00.000000000Z",
+    "open": 87.141,
+    "high": 87.202,
+    "low": 87.126,
+    "close": 87.151,
+    "volume": 101
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-11-11T05:57:55.000000000Z",
-  "generated_at": "2026-11-11T05:57:55.000000000Z",
+  "verified_at": "2026-11-12T07:07:36.000000000Z",
+  "generated_at": "2026-11-12T07:07:36.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-11-10T07:20:00Z",
-        "to": "2026-11-11T05:57:00Z",
+        "from": "2026-11-11T05:51:00Z",
+        "to": "2026-11-12T07:07:00Z",
         "code": 200,
         "msg": "OK"
       }
